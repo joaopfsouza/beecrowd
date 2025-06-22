@@ -16,7 +16,7 @@
 
 def main():
     expected_answer = int(input()) 
-    player_guesses = input().split('')
+    player_guesses = input().split()
 
     print([1 for guess in player_guesses if expected_answer == int(guess)].count(1))
     
